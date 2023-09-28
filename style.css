@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/fotos-premium/mountains-and-a-lake-with-a-full-moon-in-the-sky-generative-ai_900814-13293.jpg);
+    background-size: 145%;
+    
+}
+.containerIkaike {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 30px;
+    border: 3px solid rgb(114, 39, 212);
+    box-shadow: 0 0 20px rgb(128, 0, 255);
+    background-color: #c167eb3d;
+    color: antiquewhite;
+}
+        
+    ul {
+        list-style-type: none;
+        padding: 10px;
+    }
+        
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid #ae36e6ec;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #b955e760;
+        font: 100;
+        border-radius: 20px;
+        color: rgb(237, 241, 245);
+    }
+        
+    input {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #02020350;
+        border: 3px solid #ae00ff9d;
+        color: rgb(183, 203, 223);
+    }
+
+    button {
+        background-color: #7300ff54;
+        color: rgb(255, 255, 255);
+        border: 1px solid #a201ed48;;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+        
+    button:hover {
+        background-color: #7300ff;
+        
+    }
